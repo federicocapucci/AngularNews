@@ -1,6 +1,6 @@
 # AngularNews
 
-<a href="https://ibb.co/x6SqF4R"><img src="https://i.ibb.co/SBXwfL9/Untitled.png" alt="Untitled" border="0"></a>
+<a href="https://ibb.co/x6SqF4R"><img style="width:100%" src="https://i.ibb.co/SBXwfL9/Untitled.png" alt="Untitled" border="0"></a>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
