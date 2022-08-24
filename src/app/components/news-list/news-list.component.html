@@ -1,0 +1,15 @@
+<div class="row row-cols-1 row-cols-lg-3 g-4 mt-3">
+    <div class="col" *ngFor="let news of newsList">
+        <div class="card d-flex flex-column justify-content-between">
+            <a [href]="news.url" target="_blank">                
+                <img [src]="news.urlToImage || '/assets/no-image-available.png' " class="card-img-top" [alt]="news.title">
+            </a>
+            <div class="card-body d-flex flex-column justify-content-between pb-1">
+                <span class="badge text-bg-primary mb-3">Source: '{{news.source.name}}' on {{news.publishedAt.substring(0,10)}}</span>
+                <h5 class="card-title mb-3">{{news.title || "No-Title-Available"}}</h5>
+                <p class="card-text mb-3">{{news.description || "No-Description-Available"}}</p>
+                <a [href]="news.url" target="_blank" class="btn btn-primary btn-block">Full note</a>
+            </div>
+        </div>
+    </div>
+</div>

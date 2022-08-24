@@ -1,0 +1,17 @@
+.btn{
+    width: 100%;
+}
+
+.badge{
+    font-size: 0.8rem;
+    overflow: hidden;
+}
+
+.card{  
+    height: 650px;
+}
+img{
+    height: 300px;
+    object-fit: cover;
+
+}
