@@ -16,7 +16,7 @@ export class AppComponent {
 
   // 4 - Data is passed as parameters from the child component
   searchNews(params : any){
-    
+    this.newsList = []    
     this.isLoading = true;
 
     setTimeout(() =>{

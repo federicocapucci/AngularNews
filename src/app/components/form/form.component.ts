@@ -10,7 +10,7 @@ export class FormComponent implements OnInit {
   // 1 - Create Outpput to export to parent component
   @Output() paramsSelected = new EventEmitter<any>(); 
 
-  categoriesList: any[] = [
+  categoriesList: any[] = [    
     {value: 'general', label: 'General'},
     {value: 'business', label: 'Business'},
     {value: 'entertainment', label: 'Entertainment'},
@@ -51,7 +51,7 @@ export class FormComponent implements OnInit {
     )
   }
 
-  sendParams(){
+  sendParams(){    
     const PARAMS = {
       country: this.selectedCountry,
       category: this.selectedCategory
